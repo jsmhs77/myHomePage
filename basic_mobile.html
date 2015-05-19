@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Hello there. welcome</title>
+  <link rel="stylesheet" type="text/css" href="css/mobile.css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(function(){
+	$('.nav ul li').click(function(){
+		$('.co').hide();
+		$('#' + $(this).attr('class')).show();
+		return false;
+	});
+});
+	
+$(function(){
+	$('.t_nav ul li').click(function(){
+		$('.menu_comedy').hide();
+		$('#' + $(this).attr('class')).show();
+		return false;
+	});
+});
+	
+</script>
+</head>
+
+<body class="mybody">
+<div id="wrap">
+	
+	<!--header -->
+	<div id="header">
+		<span>
+		<img src="https://photoemp.navercorp.com/empPhoto/A1504010080949.jpg?20150402121233" height="100px" class="myown">
+		</span>
+		<span>Hello there. Welcome</span>
+		<div class="t_nav">
+			<ul>
+				<li class="container"><a href="">Key and Peele</a></li>
+				<li class="container2"><a href="">Monitoring</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- // header -->
+	
+	<!--container-->
+	<div id="container" class="menu_comedy"> 
+		<div class="lnb">
+			<div class="nav">
+				<ul>
+					<li class="k0">episode</li>
+					<li class="k1"><a href="">Substitute Teacher</a></li>
+					<li class="k2"><a href="">Obama meet and greet</a></li>
+					<li class="k3"><a href="">Clear Cookies</a></li>
+					<li class="k4"><a href="">Dueling Hats</a></li>				
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="co" id="k0"><img src="http://ecx.images-amazon.com/images/I/41pi13GW%2BGL._SX940_.jpg" width="100%"></div>
+			<div class="co" id="k1" style="display:none"><iframe width="600" height="300" src="https://www.youtube.com/embed/Dd7FixvoKBw" frameborder="0" allowfullscreen></iframe></div>
+			<div class="co" id="k2" style="display:none"><iframe width="600" height="300" src="https://www.youtube.com/embed/nopWOC4SRm4" frameborder="0" allowfullscreen></iframe></div>
+			<div class="co" id="k3" style="display:none"><iframe width="600" height="300" src="https://www.youtube.com/embed/fu73ng-W60o" frameborder="0" allowfullscreen></iframe></div>
+			<div class="co" id="k4" style="display:none"><iframe width="600" height="300" src="https://www.youtube.com/embed/i5ZM0-f5_CU" frameborder="0" allowfullscreen></iframe></div>
+		</div>
+	</div>	
+	
+	<div id="container2" class="menu_comedy" style="display:none">
+		<div class="lnb2">
+			<div class="nav">
+				<ul>
+					<li class="m0">episode</li>
+					<li class="m1"><a href="">changed wife</a></li>
+					<li class="m2"><a href="">weird rule</a></li>
+					<li class="m3"><a href="">invisible wall</a></li>
+					<li class="m4"><a href="">awful food</a></li>				
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="co" id="m0"><img src="http://i1.daumcdn.net/thumb/R750x0/?fname=http%3A%2F%2Fcfile25.uf.tistory.com%2Fimage%2F2557D13454A0D0A50399B6"" width="100%"></div>
+			<div class="co" id="m1" style="display:none"><iframe width="600" height="300" src="https://www.youtube.com/embed/yE0ocjVt628" frameborder="0" allowfullscreen></iframe></div>
+			<div class="co" id="m2" style="display:none"><iframe width="600" height="300"src="https://www.youtube.com/embed/SqAFxixiovA" frameborder="0" allowfullscreen></iframe></div>
+			<div class="co" id="m3" style="display:none"><iframe width="600" height="300" src="https://www.youtube.com/embed/guOmSs1DzYg" frameborder="0" allowfullscreen></iframe></div>
+			<div class="co" id="m4" style="display:none"><iframe width="600" height="300" src="https://www.youtube.com/embed/wtvGu9Ivxas" frameborder="0" allowfullscreen></iframe></div>
+		</div>
+	</div>
+	<!--//container-->
+	<!--footer-->
+	<div id="footer">copyright : 권진혁</div>
+	<!--//footer-->
+</div>
+</body>
+</html>

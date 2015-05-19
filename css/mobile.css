@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* NHN Technology Services UIT Development Center */
+
+/* Common */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:'돋움',Dotum, Helvetica,sans-serif;font-size:12px}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+.blind{overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+#wrap{width:100%;margin:0 auto;}
+#header{height:150px;background:#ccc}
+.myown {border-radius:50%;vertical-align:middle}
+#header .t_nav{width:100%}
+#header .t_nav ul li{float:left;width:50%;font-size:25px;text-align:center;}
+#header .t_nav ul li a{display:block;height:50px;vertical-align:middle;font-weight:bold;font-family:arial;border-top:3px solid #000;line-height:50px;text-indent:10px}
+#header .t_nav ul li+li a{border-left:1px solid #000	}
+#header .t_nav:after{clear:both}
+
+
+#header span+span{margin-left:10px;font-family:Helvetica;font-size:50px;vertical-align:middle}
+#container{background:#ccc}
+#container:after{clear:both;display:block;content:""}
+#container .lnb{float:left;width:25%;background:#fff}
+
+#container2{background:#ccc}
+#container2:after{clear:both;display:block;content:""}
+#container2 .lnb2{float:left;width:25%;background:#fff}
+
+.nav ul li{height:60px;border-top:1px solid #ccc; line-height:50px; text-indent:10px}
+.nav ul li a{font-family:arial;font-size:15px}
+.nav ul li:first-child{font-family:arial;font-size:15px; font-weight:bold}
+.mybody{background-image: url("http://i.ytimg.com/vi/DWO1pkHgrBM/maxresdefault.jpg")}
+
+.content{float:left;width:75%;background:#ccc;overflow:hidden}
+#footer{height:50px;background:#ccc;text-align:center;font-size:15px}
